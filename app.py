@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 # ================= SIDEBAR PROFIL =================
 st.sidebar.markdown("## 🌿 Eco-Forest System")
 
-st.sidebar.image("mangrove.jpg", use_container_width=True)
+st.sidebar.image("mangrove.jpeg", use_container_width=True)
 
 st.sidebar.markdown("### 👥 Anggota Kelompok")
 st.sidebar.markdown("""
