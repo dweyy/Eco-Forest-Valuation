@@ -4,6 +4,26 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
+# ================= SIDEBAR PROFIL =================
+st.sidebar.markdown("## 🌿 Eco-Forest System")
+
+st.sidebar.image(
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mangrove_forest.jpg/800px-Mangrove_forest.jpg",
+    use_container_width=True
+)
+
+st.sidebar.markdown("### 👥 Anggota Kelompok")
+st.sidebar.markdown("""
+- Dwirani Salfatihah (10090224009)  
+- Nazwa Aprilia Putri (10090224015)  
+- Annisa Tri Lestari (10090224019)
+""")
+
+st.sidebar.markdown("### 👨‍🏫 Dosen Pengampu")
+st.sidebar.info("Yuhka Sundaya")
+
+st.sidebar.divider()
+
 df = pd.read_excel("data.xlsx")
 df.columns = df.columns.str.strip()
 
